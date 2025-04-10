@@ -49,7 +49,9 @@ The model uses the 30 features to predict whether a tumor is:
 
 Interpreting the Results
 
-The output includes a confusion matrix that explains how many predictions were correct and how many were wrong. For example:
+The output includes a confusion matrix that explains how many predictions were correct and how many were wrong. 
+
+For example:
 
 	Tumors that were ACTUALLY benign (non-cancerous):
 	   71 were correctly predicted as benign
