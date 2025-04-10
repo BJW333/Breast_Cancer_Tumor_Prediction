@@ -51,7 +51,7 @@ Interpreting the Results
 
 The output includes a confusion matrix that explains how many predictions were correct and how many were wrong. 
 
-For example:
+For example this is what a output may look like:
 
 	Tumors that were ACTUALLY benign (non-cancerous):
 	   71 were correctly predicted as benign
