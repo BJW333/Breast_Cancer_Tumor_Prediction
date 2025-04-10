@@ -4,6 +4,8 @@ Breast Cancer Tumor Classifier
 
 This program uses real medical data to predict whether a breast tumor is cancerous (malignant) or non-cancerous (benign) using a machine learning model called a Decision Tree. This project was initally just me just bored messing around with data then I decided to turn it into something useful with a high accuracy rate of dectection.
 
+To see the output/results of when you run the program just click into the Cancer_Tumor_Dataset_Prediction folder then click into the Tumor_Cancer_Prediction_Detection.ipynb file and scroll all the way down to see the results. 
+
 ⸻
 
 Overview
