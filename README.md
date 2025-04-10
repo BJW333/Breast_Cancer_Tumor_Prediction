@@ -9,6 +9,7 @@ This program uses real medical data to predict whether a breast tumor is cancero
 Overview
 
 This program:
+
 	•	Loads a dataset containing measurements of breast tumors
 	•	Trains a machine learning model to recognize patterns in the data
 	•	Tests the model on new, unseen data
@@ -23,6 +24,7 @@ This program:
 Dataset Information
 
 The dataset is sourced from the UCI Machine Learning Repository. It includes:
+
 	•	569 instances (tumor samples)
 	•	30 numeric features such as radius, texture, area, and smoothness
 	•	A diagnosis label:
@@ -30,6 +32,7 @@ The dataset is sourced from the UCI Machine Learning Repository. It includes:
 	•	B = Benign (non-cancerous)
 
 The program converts these labels into binary values:
+
 	•	Malignant = 1
 	•	Benign = 0
 
@@ -38,6 +41,7 @@ The program converts these labels into binary values:
 What the Model Predicts
 
 The model uses the 30 features to predict whether a tumor is:
+
 	•	Malignant (1) – Cancerous
 	•	Benign (0) – Non-cancerous
 
@@ -46,19 +50,21 @@ The model uses the 30 features to predict whether a tumor is:
 Interpreting the Results
 
 The output includes a confusion matrix that explains how many predictions were correct and how many were wrong. For example:
-Tumors that were ACTUALLY benign (non-cancerous):
-   71 were correctly predicted as benign
-   1 was wrongly predicted as malignant
 
-Tumors that were ACTUALLY malignant (cancerous):
-   2 were wrongly predicted as benign
-   40 were correctly predicted as malignant
+	Tumors that were ACTUALLY benign (non-cancerous):
+	   71 were correctly predicted as benign
+	   1 was wrongly predicted as malignant
+
+	Tumors that were ACTUALLY malignant (cancerous):
+	   2 were wrongly predicted as benign
+	   40 were correctly predicted as malignant
    
 ⸻
 
 Visual Output
 
 You will see three main visualizations:
+
 	1.	Decision Tree Chart – Shows the model’s logic in making predictions
 	2.	Feature Importance Bar Graph – Highlights the most influential measurements
 	3.	Confusion Matrix Heatmap – Displays prediction results in a color-coded table
